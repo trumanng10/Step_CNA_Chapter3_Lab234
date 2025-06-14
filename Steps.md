@@ -1,4 +1,4 @@
----
+
 
 ### ✅ **Step 1: Install Git and Python (if not already installed)**
 
@@ -66,6 +66,60 @@ git remote add origin https://github.com/YourUsername/hello-python.git
 git branch -M main
 git push -u origin main
 ```
+
+### ✅ **Step-by-Step: Create and Switch to `Rev1.1` Branch**
+
+1. **Open Command Prompt**
+   Navigate to your repo folder:
+
+   ```bash
+   cd C:\Users\YourName\Documents\GitTest
+   ```
+
+2. **Check current branch**
+
+   ```bash
+   git branch
+   ```
+
+   You should see `* main` as the current branch.
+
+3. **Create and switch to a new branch `Rev1.1`**
+
+   ```bash
+   git checkout -b Rev1.1
+   ```
+
+   This creates the branch **and** switches to it.
+
+4. **Make changes (optional)**
+   Open `hello.py` and edit it, for example:
+
+   ```python
+   print("Hello, GitHub! This is Rev1.1.")
+   ```
+
+   Save the file.
+
+5. **Add and commit changes**
+
+   ```bash
+   git add hello.py
+   git commit -m "Updated hello.py for Rev1.1"
+   ```
+
+6. **Push the new branch to GitHub**
+
+   ```bash
+   git push -u origin Rev1.1
+   ```
+
+---
+
+You’ll now see the new branch `Rev1.1` on GitHub under the branch dropdown.
+
+
+
 
 You’ll be prompted to log in — follow the authentication steps (token-based if password no longer works).
 
