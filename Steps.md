@@ -62,6 +62,9 @@ git commit -m "Initial commit - hello.py"
 2. Back in Command Prompt:
 
 ```bash
+git config --gloabl user.mail "Youremail@emai.com(Replace this)"
+git config --gloabl user.name "Your GitHUb username(Replace this)"
+
 git remote add origin https://github.com/YourUsername/hello-python.git
 git branch -M main
 git push -u origin main
